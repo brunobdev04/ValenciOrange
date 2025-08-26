@@ -1,0 +1,119 @@
+* {
+ background-color:rgb(255, 255, 255);
+}
+
+
+header {
+    width: 100%;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.5);
+}
+
+.global-nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    width: 1000px 90px;
+}
+
+.global-nav-content .logomarca {
+    font-display:inherit;
+    font-size: 42px;
+    color: rgb(0, 0, 0);
+    font-family: "Cardo", serif;
+}
+
+.nav {
+    width: 1000px;
+}
+
+.btn-reserve {
+    font-family: "Poppins", sans-serif;
+    padding: 9px 12px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.5);
+    line-height: 1.25;
+    background: #EB7C41;
+    text-decoration: none;
+    user-select: none;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    letter-spacing: .04em;   
+    position: relative;
+    transition: background-color .6s ease;
+    overflow: hidden;
+}
+
+.nav-option {
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+
+.container {
+    margin-right: 150px;
+    margin-left: 120px;
+
+}
+
+.hero{
+    margin-top: 100px;
+}
+
+.hero p {
+    font-family: "Poppins", sans-serif;
+    
+    font-size: 22px;
+    letter-spacing: .02em;
+    color: rgb(99, 98, 98);
+}
+
+.textcase {
+  
+    font-family: "Poppins", sans-serif;
+    letter-spacing: .04em;
+    font-size: 39px;
+}
+
+.cardapio-session{
+    margin-top: 60px;
+}
+
+.nosso-cardapio {
+    
+    font-family: "Poppins", sans-serif;
+    letter-spacing: .04em;
+    font-size: 39px;
+}
+
+.cardapio-session img{
+    position: relative;
+    align-content: center;
+}
+
+.cardapio-text{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+
+.btn-cardapio {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    
+    padding: 9px 13px;
+    color: orangered;
+    font-style: inherit;
+}
+
+.cardapio-session p{
+   
+    font-size: 22px;
+    letter-spacing: .02em;
+    color: rgb(99, 98, 98)
+}
